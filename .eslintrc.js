@@ -22,6 +22,7 @@ module.exports = {
   },
   plugins: ['react', 'import', 'jsx-a11y'],
   rules: {
+    "react/prop-types": 0,
     "import/extensions": [
       "error",
       "ignorePackages",
